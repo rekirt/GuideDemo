@@ -1,0 +1,23 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="centerInside"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_empty_page" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textColor="#333333"
+        android:textSize="20sp"
+        android:text="没有数据!"/>
+
+</FrameLayout>

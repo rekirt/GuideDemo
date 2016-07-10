@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fl_title_layout"
+    android:orientation="horizontal"
+    android:fitsSystemWindows="true"
+    android:clipToPadding="true"
+    android:background="@color/custom_title_bg_color"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/iv_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="start|center_vertical"
+        android:src="@drawable/title_back" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:text="标题"/>
+
+    <ImageView
+        android:id="@+id/iv_option"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:visibility="gone"
+        android:layout_marginRight="10dp"
+        android:layout_gravity="end|center_vertical"
+        android:src="@drawable/title_option"/>
+    <TextView
+        android:id="@+id/tv_right_text_button"
+        android:layout_width="wrap_content"
+        android:visibility="gone"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_gravity="end|center_vertical"
+        android:src="@drawable/title_option"/>
+</FrameLayout>

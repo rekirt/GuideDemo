@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="custom_title_bg_color">#FAFAFA</color>
+    <color name="province_line_border">#C7C7C7</color>
+
+    <color name="dialog_bg">#00000000</color>
+</resources>
